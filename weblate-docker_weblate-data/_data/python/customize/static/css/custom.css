@@ -1,0 +1,39 @@
+
+body {  background: #fff; font-family: "Roboto", "Helvetica", "Arial", sans-serif; }
+
+.navbar { min-height: 75px; }
+.navbar { border-bottom: 8px solid #046ec5; }
+
+.navbar-brand { display: none; }
+
+ul.navbar-nav { margin-top: 10px; } 
+
+#headerbre { background: #003476; border-bottom: 8px solid #046ec5; 
+             width: 100% ; margin-bottom: 20px; }
+
+header h2 i { color: #fff; }
+
+.container-fluid { padding-left: 230px;
+background: url("https://webdev.ellak.gr/weblate/static/ellak_logo.png") left no-repeat;
+    background-size: 200px;
+}
+
+
+@media (min-width: 1170px) {
+     .container-fluid { width: 1170px;   }
+}
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, 
+   .nav-pills > li.active > a:focus { background-color: #00703c; }
+
+
+.btn-primary:hover { color: #000 ; }
+
+footer { background: #EBEBEB; border-top: 3px solid #0065B3; padding: 10px; }
+
+footer ul { margin: .5em auto 1em auto; }
+
+footer div { text-align: center; }
+
+.main-content { min-height: 400px; } 
