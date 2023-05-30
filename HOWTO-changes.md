@@ -16,4 +16,12 @@ _data/python/customize/static/
 <link type="text/css" rel="stylesheet" href="https://WEBLATE_SITE/WEBLATE_DIRECTORY/static/css/custom.css"><script src="https://WEBLATE_SITE/WEBLATE_DIRECTORY/static/js/custom.js" defer></s
 cript>
 
-Το περιεχόμενο της παραμέτρου θα περάσει στον header της html. 
+Το περιεχόμενο της παραμέτρου θα περάσει στον header της html.
+
+Στο παρών git υπάρχουν δύο επιπρόσθετοι φάκελοι:
+
+- weblate-docker_weblate-data : βρίσκονται τα αρχεία που αναφέρονται παραπάνω με την αντίστοιχη δομή φακέλων
+- eellak_configuration : περιέχει το αρχείο του docker όπως διαμορφώθηκε παραπάνω, καθώς και ένα αρχείο με την προσθήκη στο configuration nginx για το reverse proxy.
+
+
+
